@@ -16,7 +16,7 @@ namespace OefeningenOvererving18._2_Dieren
 
         public override string Praten(string zin)
         {
-            ++teller;
+            teller++;
             if(teller % 3 == 0)
             {
                 return "Miaauw";

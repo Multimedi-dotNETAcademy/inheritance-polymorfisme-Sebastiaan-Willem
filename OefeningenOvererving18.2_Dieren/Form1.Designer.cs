@@ -141,6 +141,7 @@ namespace OefeningenOvererving18._2_Dieren
             // btnPraten
             // 
             this.btnPraten.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btnPraten.Enabled = false;
             this.btnPraten.Location = new System.Drawing.Point(267, 177);
             this.btnPraten.Name = "btnPraten";
             this.btnPraten.Size = new System.Drawing.Size(183, 95);
@@ -152,6 +153,7 @@ namespace OefeningenOvererving18._2_Dieren
             // btnStrelen
             // 
             this.btnStrelen.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btnStrelen.Enabled = false;
             this.btnStrelen.Location = new System.Drawing.Point(13, 316);
             this.btnStrelen.Name = "btnStrelen";
             this.btnStrelen.Size = new System.Drawing.Size(183, 95);
@@ -163,6 +165,7 @@ namespace OefeningenOvererving18._2_Dieren
             // btnEten
             // 
             this.btnEten.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btnEten.Enabled = false;
             this.btnEten.Location = new System.Drawing.Point(267, 316);
             this.btnEten.Name = "btnEten";
             this.btnEten.Size = new System.Drawing.Size(183, 95);

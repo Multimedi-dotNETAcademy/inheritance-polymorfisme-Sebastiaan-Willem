@@ -31,6 +31,10 @@ namespace OefeningenOvererving18._2_Dieren
 
             lblHuidigDier.Text = huidigDier.GetType().Name + " " + huidigDier.Naam;
             lblHuidigDier.Visible = true;
+
+            btnEten.Enabled = true;
+            btnPraten.Enabled = true;
+            btnStrelen.Enabled = true;
         }
 
 
